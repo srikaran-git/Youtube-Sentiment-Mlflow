@@ -1,0 +1,11 @@
+data_ingestion:
+  test_size: 0.2
+  random_state: 42
+
+model_building:
+  ngram_range: [1, 3]
+  max_features: 1000
+  learnng_rate: 0.09
+  n_estimators: 367
+  max_depth: 20
+  random_state: 42
